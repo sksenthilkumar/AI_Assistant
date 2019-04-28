@@ -1,0 +1,47 @@
+{% extends "layout.html" %}
+{% block body %}
+<div class="container">
+    <h1 class = "display-1" align="left">
+        <img src="https://www.gc-gruppe.de/sites/default/files/imageblock/gc-gruppe.png" alt="Your Alt Tag is Here" /> <br>
+    </h1>
+
+
+</div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-6" align="center">
+        <h1 class = "display-1" align="center"> Your Question <small style="color:black;"> please! </small> </h1>
+        <div align="center">
+            <form id="textinput" style="display:none">
+              <div class="form-group">
+                <input class="form-control-lg" type="text" id="InputText" placeholder=" Type your question here.">
+                <small id="textHelp" class="form-text text-muted"></small>
+              </div>
+            </form>
+        </div>
+       <form id="labnol" method="get">
+          <div class="speech">
+            <input type="text" name="q" id="transcript" placeholder="Speak" />
+              <a id="record" onclick="startDictate()"> record </a>
+          </div>
+        </form>
+
+    </div>
+    <div class="col-sm-6" align="center">
+        <h1 class = "display-1" align="center"> Our Answer </h1>
+        <div id="answers">
+            <p id="ans" hidden> Hey the reply is </p>
+        </div>
+    </div>
+  </div>
+</div>
+
+
+{% endblock %}

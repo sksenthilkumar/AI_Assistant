@@ -1,0 +1,22 @@
+<div align="center">
+        <form id="textinput">
+          <div class="form-group">
+              <label for="InputText"> How can we serve you </label>
+            <input type="text" id="InputText" placeholder=" Type your question here.">
+            <small id="textHelp" class="form-text text-muted"></small>
+          </div>
+
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+
+
+    <div align="center">
+            <!-- Search Form -->
+        <form id="labnol" method="get">
+          <div class="speech">
+            <input type="text" name="q" id="transcript" placeholder="Speak" />
+              <a onclick="startDictation()"> Record </a>
+          </div>
+        </form>
+    </div>

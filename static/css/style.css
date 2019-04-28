@@ -1,0 +1,43 @@
+body {
+ background-color: rgba(39, 48, 93, 0.85);
+ padding-bottom:60px;
+}
+
+#labnol input{
+ background: rgba(255, 255, 255, 0) !important;
+ font-size: large;
+ border-bottom: 1px solid rgba(255, 255, 255, 0.54);
+ border-top: none;
+ color: white;
+ border-right: none;
+ border-left: none;
+ width: 80%;
+ padding: 10px 0;
+}
+
+#labnol input::placeholder{
+ color: white;
+ font-size: large;
+ padding-left: 10px
+}
+
+#ans {
+ font-size: large;
+    color: white;
+ margin: 0 auto;
+ padding-top: 30px;
+}
+
+#main {
+   height:100%;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    height: 100px;
+    background: #48477582;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
